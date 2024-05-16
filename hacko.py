@@ -12,8 +12,6 @@ LAIME_API_KEY = "lmwr_sk_9ZWN0ODAZe_QjxwbXtkTw9xupSiuf9KxeXPdGh0F1IlZUl8F"
 # Set the Gemini API key
 genai.configure(api_key=GEMINI_API_KEY)
 
-# Use a non-empty label:
-st.checkbox(label='Enable feature X', value=False)
 
 # Create the model
 def enhance_prompt(user_text: str, city: str):
@@ -112,8 +110,9 @@ user_option = st.selectbox("What country would you like to imagine with AI?",
                 )
 
 # Create text area for user prompt
-user_prompt = st.text_area(label="",
-                placeholder="...اكتب وصف المدينة التي تريد زيارتها")  # "Write your country description, so AI can imagine and give you amazing image..."
+user_prompt = st.text_area(label=" ",
+                           placeholder="Write your city description here...",
+                           label_visibility="collapsed")
 
 # Show enhanced prompt and give the user choice to choose if he want to use the enhance prompt or the original one
 # Create a radio button to select prompt type
