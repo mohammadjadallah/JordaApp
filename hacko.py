@@ -7,7 +7,7 @@ import re
 
 # Get the APIs keys
 GEMINI_API_KEY = "AIzaSyClHfsmtQgIT7SczQwDfYBW3MDJRfpPmOY"
-LAIME_API_KEY = "lmwr_sk_lSqkyyAjlv_Viz2robXUKlV96r3j9MTAR5r14ZjS3S9KU9NE"
+LAIME_API_KEY = "lmwr_sk_9ZWN0ODAZe_QjxwbXtkTw9xupSiuf9KxeXPdGh0F1IlZUl8F"
 
 # Set the Gemini API key
 genai.configure(api_key=GEMINI_API_KEY)
