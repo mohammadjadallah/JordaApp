@@ -112,7 +112,7 @@ user_option = st.selectbox("What country would you like to imagine with AI?",
 # Create text area for user prompt
 user_prompt = st.text_area(label=" ",
                            placeholder="Write your city description here...",
-                           label_visibility="collapsed")
+                           label_visibility="visible")
 
 # Show enhanced prompt and give the user choice to choose if he want to use the enhance prompt or the original one
 # Create a radio button to select prompt type
