@@ -6,8 +6,8 @@ import google.generativeai as genai
 import re
 
 # Get the APIs keys
-GEMINI_API_KEY = "AIzaSyClHfsmtQgIT7SczQwDfYBW3MDJRfpPmOY"
-LAIME_API_KEY = "lmwr_sk_9ZWN0ODAZe_QjxwbXtkTw9xupSiuf9KxeXPdGh0F1IlZUl8F"
+GEMINI_API_KEY = "<YOUR API KEY>"
+LAIME_API_KEY = "<YOUR API KEY>"
 
 # Set the Gemini API key
 genai.configure(api_key=GEMINI_API_KEY)
