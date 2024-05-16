@@ -80,6 +80,7 @@ def generate_image(url, text_prompt: str):
     }
 
     response = requests.post(url, json=payload, headers=headers)
+    print(response)
     data = response.json()
     print("[INFO-1]: Data Returned Successfully")
     image_link = data['data'][0]['asset_url']
