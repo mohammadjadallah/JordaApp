@@ -12,6 +12,9 @@ LAIME_API_KEY = "lmwr_sk_9ZWN0ODAZe_QjxwbXtkTw9xupSiuf9KxeXPdGh0F1IlZUl8F"
 # Set the Gemini API key
 genai.configure(api_key=GEMINI_API_KEY)
 
+# Use a non-empty label:
+st.checkbox(label='Enable feature X', value=False)
+
 # Create the model
 def enhance_prompt(user_text: str, city: str):
     generation_config = {
